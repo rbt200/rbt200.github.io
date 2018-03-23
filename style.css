@@ -1,0 +1,48 @@
+body {
+     height:100%;
+     margin:0;
+     padding:0;
+}
+
+.lining {
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	background:#f7f9f9;
+}
+
+/*.lining {
+	visibility: hidden;
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     text-align:center;
+     z-index: 1000;
+}*/
+
+.lining div{
+	position:absolute;
+	top: 10%;
+	left: 45%;
+	right: 45%;
+	width:235px;
+	height:150px;
+	background:#999;	
+}
+
+
+/*.lining div{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-top:-100px;
+	margin-left:-100px;
+	width:300px;
+	height:300px;
+	background:#999;	
+}*/
+
