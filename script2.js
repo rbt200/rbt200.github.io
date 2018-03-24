@@ -20,7 +20,6 @@ function updateStorage() {
 				yesterday[item] =  copy[item];
 			}
 		});
-	// alert(week.length);
 	const tempArr = [{}, {}, {}, {}, {}, {}, {}];	
 	for(let i = 0; i < 7; i++) {
 		if(week[i] !== undefined) {
@@ -397,9 +396,9 @@ function addRadioButton(quantity, nameArr, parent, name) {
 	parent.appendChild(br);
 }
 
-// формирует всплывающее окно
-// собирает введёные данные если нажата кнопка confirm
-// сохраняет объект с данными в storage
+// it produces the popup window,
+// collects the enterd data if the button 'confirmed' was clicked and
+// save th object with data in the local storage
 function popupDialogForm(number) {
 	const divLining = document.createElement('div');
 	divLining.setAttribute('class', 'lining');
@@ -511,9 +510,8 @@ function createYesterday() {
 			forEach(item2 => {
 				const date = new Date(db[0].yesterday[item2].time);
 				const hh = date.getHours() > 9 ? date.getHours() : '0' + date.getHours();
-				const mm = date.getMinutes() > 9 ? date.getMinutes() : '0' + date.getMinutes();
-				//const ss = date.getSeconds();
-				const time = hh + ':' + mm;// + ' : ' + ss;
+				const mm = date.getMinutes() > 9 ? date.getMinutes() : '0' + date.getMinutes();				
+				const time = hh + ':' + mm;
 				let str = '';
 				str += 'Task: ' + db[0].yesterday[item2].task + '\n';
 				str += 'Time: ' + time + '\n';				
@@ -559,8 +557,7 @@ function appendDayDivs(clearContent) {
 			divContent.appendChild(br2);
 			divContent.appendChild(createDayContainer(i));			
 			const hr = document.createElement('hr');
-			divContent.appendChild(hr);						
-			// alert(storage.message); 
+			divContent.appendChild(hr);			
 		}
 		divContent.appendChild(removeAllTasks());
 }
@@ -574,7 +571,6 @@ function appendTasks() {
 function timer() {
 	const today = new Date().getTime();
 	const lastDate = getStorage()[0].date;
-	// alert(new Date(lastDate) + '\n' + new Date() + '\n' + new Date(lastDate + (1000*60*60*24)));
 	if ((lastDate + (1000*60*60*24)) < new Date().getTime()) {
 		updatePage(true);
 	}
@@ -588,8 +584,7 @@ function updatePage(clearContent) {
 }
 
 // it shows the todo list on the page
-function addList() {
-// localStorage.removeItem('todoList2');		
+function addList() {		
 	if(existStorage()) {		
 		updatePage();
 		setInterval(function(){ timer(); }, 60000);
@@ -597,4 +592,3 @@ function addList() {
 		alert('No access to local storage :(');
 	}
 }
-
