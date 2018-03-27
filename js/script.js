@@ -378,7 +378,7 @@ function formatData(milliseconds) {
 	const days = ['SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY'];	
 	const date = new Date(milliseconds);		
 	const dayName = days[date.getDay()];
-	const day = date.getDate().length === 1 ? ('0' + date.getDate()) : date.getDate();
+	const day = date.getDate().toString().length === 1 ? ('0' + date.getDate()) : date.getDate();
 	const month = date.getMonth().toString().length === 1 ? ('0' + (date.getMonth() + 1)) : date.getMonth() + 1;
 	const year = date.getFullYear();
 	return dayName + '   ' + day + '.' + month + '.' + year;
