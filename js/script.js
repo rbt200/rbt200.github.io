@@ -532,8 +532,10 @@ function createYesterday() {
 	return div;
 }
 
-function removeAllTasks(db) {
+function removeAllTasks() {
 	const div = document.createElement('div');
+	div.style.display = 'inline';
+	div.style.marginRight = '1em';
 	const btnRemoveAllTasks = document.createElement('input');
 	btnRemoveAllTasks.setAttribute('type', 'button');
 	btnRemoveAllTasks.setAttribute('value', 'Remove all tasks');
