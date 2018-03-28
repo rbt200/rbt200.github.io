@@ -1,5 +1,6 @@
 function getTodoList() {
-	addList();	
+	addList();
+	Object.keys(localStorage).forEach(item => alert(item));
 };
  
  // it removes from storage out of date entries due to today's date 
