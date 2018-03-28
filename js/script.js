@@ -1,5 +1,7 @@
 function getTodoList() {
-	addList();
+	// addList();
+	localStorage.clear();
+	alert(Object.keys(localStorage).length);
 	Object.keys(localStorage).forEach(item => alert(item));
 };
  
