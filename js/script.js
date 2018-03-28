@@ -1,8 +1,5 @@
 function getTodoList() {
 	addList();
-// 	localStorage.clear();
-// 	alert(Object.keys(localStorage).length);
-// 	Object.keys(localStorage).forEach(item => alert(item));
 };
  
  // it removes from storage out of date entries due to today's date 
@@ -550,6 +547,24 @@ function removeAllTasks(db) {
 	return div;
 }
 
+// it removes the entry from the window.localstorage and redirects to google.com
+function removeStorage() {
+	const div = document.createElement('div');
+	div.style.display = 'inline';
+	const btnRemoveLocalstorage = document.createElement('input');
+	btnRemoveLocalstorage.setAttribute('type', 'button');
+	btnRemoveLocalstorage.setAttribute('value', 'Remove the entry from window.localStorage');
+	btnRemoveLocalstorage.addEventListener('click', function() {
+		if(confirm('The entry will be removed from the localStorage permanently.')) {
+			localStorage.removeItem('todoList2');			
+			alert('The window.localStorage has been cleard from the entry.\n\nYou will be redirected to Google\n\n');			
+        	window.location.replace("http://google.com");
+		}
+	});
+	div.appendChild(btnRemoveLocalstorage);
+	return div;
+}
+
 function appendDayDivs(clearContent) {	
 	const divContent = document.getElementById('content');
 	if (clearContent === true) {
@@ -561,7 +576,8 @@ function appendDayDivs(clearContent) {
 			const hr = document.createElement('hr');
 			divContent.appendChild(hr);
 		}
-		divContent.appendChild(removeAllTasks());
+	divContent.appendChild(removeAllTasks());
+	divContent.appendChild(removeStorage());
 }
 
 function appendTasks() {
