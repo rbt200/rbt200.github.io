@@ -27,7 +27,7 @@ body {
 	margin: 20% auto;	
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
 	.todo-container {
 	max-width: 400px;
 	}
