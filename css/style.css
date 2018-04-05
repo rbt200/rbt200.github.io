@@ -27,10 +27,9 @@ body {
 	margin: 20% auto;	
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
 	.todo-container {
 	max-width: 991px;
-	max-height: auto;
 	}
 }
 
