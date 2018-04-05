@@ -416,7 +416,7 @@ function popupDialogForm(number) {
 	const txtTask = document.createElement('input');
 	txtTask.setAttribute('type', 'text');
 	txtTask.setAttribute('id', 'txtForm');
-	txtTask.setAttribute('maxlength', 50);
+	txtTask.setAttribute('maxlength', 30);
 	txtTask.setAttribute('required', '');
 	txtTask.setAttribute('focus', true);
 	txtTask.setAttribute('placeholder', 'Enter task here...');
