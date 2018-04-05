@@ -1,28 +1,34 @@
 body {
-     height:100%;
+     min-height:100%;
      margin:0;
      padding:0;
 }
 
 .todo-container {
-	width: 700px;
+	max-width: 500px;
 	margin: 0 auto;	
 }
 
 .todo-background {
 	position:fixed;
-	left:0px;
-	top:0px;
+	left:0;
+	top: 0;
 	width:100%;
 	height:100%;
-	background:#f7f9f9;
+	background-color: rgba(0,0,0,.75);
 }
 
 .todo-background__form{
-	position:relative;
-	top: 10%;	
-	width:240px;
-	height:130px;
+	position: relative;
+	top: 0;
+	max-width:250px;
+	min-height:130px;
 	background:#999;
-	margin: 0 auto;	
+	margin: 20% auto;	
+}
+
+@media (max-width: 500px) {
+	.todo-container {
+	max-width: 400px;
+	}
 }
