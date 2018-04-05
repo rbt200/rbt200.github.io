@@ -27,9 +27,9 @@ body {
 	margin: 20% auto;	
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (max-width: 480px) {
 	.todo-container {
-	max-width: 1080px;
+	max-width: 480px;
 	margin: 0 auto;
 	}
 }
