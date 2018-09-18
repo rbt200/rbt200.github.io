@@ -320,7 +320,22 @@ body {
   width: 100%;
   height: inherit;
   display: grid;
-  grid-template-areas: "header" "about" "details" "features" "services" "quotes" "portfolio" "project" "team" "testimonials" "blog" "price" "subscribe" "contact" "map" "footer";
+  grid-template-areas: "header"
+ "about"
+ "details"
+ "features"
+ "services"
+ "quotes"
+ "portfolio"
+ "project"
+ "team"
+ "testimonials"
+ "blog"
+ "price"
+ "subscribe"
+ "contact"
+ "map"
+ "footer";
   background-color: #fff; }
   @media screen and (min-width: 992px) {
     .wrapper .header__container, .wrapper .footer__container, .wrapper .about__container {
@@ -1035,7 +1050,7 @@ body {
   @media screen and (min-width: 400px) {
     .services__content {
       width: 90%;
-      height: 20em; } }
+      height: 22em; } }
   @media screen and (min-width: 576px) {
     .services {
       padding-bottom: 3em; }
