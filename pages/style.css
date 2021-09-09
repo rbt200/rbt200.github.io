@@ -490,12 +490,20 @@ html {
   .navbar-link span {
     font-size: 2rem;
   }
+
+  .menu {
+    left: 2rem;
+  }
 }
 
 @media (max-width: 700px) {
   .section-heading {
     font-size: 7rem;
     margin: 0 10rem;
+  }
+
+  .section-1{
+    height: 70rem;
   }
 
   .section-1-icons i {
@@ -546,6 +554,11 @@ html {
   .navbar {
     height: auto;
   }
+
+  .section-1 {
+    height: 65rem;
+  }
+
   .section-4 {
     height: 25rem;
     flex-direction: column;
