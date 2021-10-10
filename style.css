@@ -330,6 +330,7 @@ html {
 
 .gallery__img {
   width: 30rem;
+  height: 240px;
   transition: opacity 0.5s;
 }
 

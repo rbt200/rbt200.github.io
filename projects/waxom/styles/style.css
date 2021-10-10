@@ -1,0 +1,855 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/**
+ * Add the correct font size in all browsers.
+ */
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/**
+ * Correct the padding in Firefox.
+ */
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+/*
+ * Add the correct display in all browsers.
+ */
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+/**
+ * Add the correct display in IE 10.
+ */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted; }
+
+b {
+  font-weight: bolder; }
+
+strong {
+  font-weight: bolder; }
+
+code {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+kbd {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+small {
+  font-size: 80%; }
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  bottom: -0.25em; }
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+img {
+  border-style: none; }
+
+button {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button; }
+  button::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  button:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible; }
+
+optgroup {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+select {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  text-transform: none; }
+
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: auto; }
+
+[type="button"] {
+  -webkit-appearance: button; }
+  [type="button"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  [type="button"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+[type="reset"] {
+  -webkit-appearance: button; }
+  [type="reset"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  [type="reset"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+[type="submit"] {
+  -webkit-appearance: button; }
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0; }
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+progress {
+  vertical-align: baseline; }
+
+[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+[type="number"]::-webkit-inner-spin-button {
+  height: auto; }
+
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+details {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+.container {
+  margin: 0;
+  max-width: 100%; }
+
+.carousel-indicators li {
+  width: 0.9em;
+  height: 0.9em;
+  border-radius: 12px;
+  background-color: #949291;
+  margin: 1em; }
+
+.carousel-indicators li:active {
+  border: solid 0.1em #c6b5a3;
+  background-color: #2c2c2e; }
+
+html {
+  padding: 0;
+  margin: 0; }
+
+body {
+  width: 100%;
+  height: inherit;
+  font-size: 1em; }
+
+.wrapper {
+  width: 100%;
+  height: auto; }
+
+.header {
+  width: 100%;
+  height: 64em;
+  padding-top: 2em;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-image: url(../assets/img/header-mountains.png); }
+  .header__logo {
+    text-align: center; }
+  .header .navbar {
+    justify-content: center; }
+  .header__carousel {
+    margin-top: 17em; }
+  .header .carousel-indicators {
+    margin-bottom: -15em !important; }
+  .header__carousel-items {
+    text-align: center; }
+  .header__title {
+    font: medium 2.2em 'Raleway';
+    color: #fff; }
+  .header__subtitle {
+    font: bolder 3em 'Raleway';
+    color: #fff; }
+  .header__text {
+    font: lighter 1em 'Montserrat';
+    color: #fff; }
+  .header__btn {
+    color: #fff;
+    margin-top: 2em; }
+  @media screen and (max-width: 576px) {
+    .header {
+      width: 100%;
+      height: auto; }
+      .header .nav-link {
+        color: #fff !important; }
+      .header .header__carousel {
+        display: none; } }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .header {
+      width: 100%;
+      height: auto; }
+      .header .nav-link {
+        color: #fff !important; }
+      .header__carousel {
+        margin-top: 0em; }
+      .header__btn {
+        margin: 1em 0 4em; }
+      .header .carousel-indicators {
+        margin-bottom: -0.5em !important; } }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .header .carousel-indicators {
+      margin-bottom: -8em !important; } }
+
+.services {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 5.5em;
+  text-align: center; }
+  .services__container {
+    padding-top: 5em;
+    text-align: center; }
+  .services__item:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    /* This will center the border. */
+    width: 35%;
+    /* Change this to whatever width you want. */
+    padding-top: 1.25em;
+    /* This creates some space between the element and the border. */
+    border-bottom: 0.3em solid #f1eee9;
+    /* This creates the border. Replace black with whatever color you want. */
+    margin-bottom: 5em; }
+  .services__item:hover:after {
+    border-bottom: 0.3em solid #c7b299;
+    /* This creates the border. Replace black with whatever color you want. */ }
+  .services__icon {
+    padding-bottom: 1.75em; }
+  .services__title {
+    font: 600 1.375em 'Raleway'; }
+
+.ideas {
+  width: 100%;
+  height: auto;
+  background-color: #fbfaf8; }
+  .ideas__top {
+    margin-left: 0;
+    margin-right: 0; }
+  .ideas__title {
+    font: 700 2.1em 'Raleway';
+    text-align: center;
+    margin-top: 5em; }
+  .ideas__text {
+    font: normal 1em 'Montserrat';
+    text-align: center;
+    margin-top: 0; }
+  .ideas__slider {
+    width: inherit;
+    height: auto;
+    margin-top: 3em;
+    background-image: url(../assets/img/ideas-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom; }
+  .ideas__carousel-img {
+    width: 100%;
+    height: inherit; }
+  @media screen and (max-width: 768px) {
+    .ideas__title {
+      margin-top: 1em; }
+    .ideas__text {
+      padding-bottom: 2em; } }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .ideas__title {
+      margin-top: 2em; } }
+
+.wordpress {
+  width: 100%;
+  height: auto;
+  background-color: #221c1a;
+  padding: 2.5em 0; }
+  .wordpress .row {
+    margin: 0 !important; }
+  .wordpress__row {
+    text-align: center; }
+  .wordpress__title {
+    font: normal 1.75em 'Raleway';
+    color: #fff; }
+  .wordpress__company {
+    font: normal 1.1em 'Raleway';
+    color: #c7b299; }
+  .wordpress__subtitle {
+    font: normal 1.2em 'Monserrat';
+    color: #5c524f;
+    padding: 0;
+    margin: 0; }
+  .wordpress__button {
+    font: bold 0.8em 'Raleway';
+    margin-top: 1.5em;
+    padding: 1em 2em;
+    background-color: #998675;
+    border: solid #736357;
+    color: #fff; }
+
+.projects__title {
+  font: 700 1.785em "Montserrat";
+  padding-top: 2em;
+  text-align: center; }
+
+.projects__subtitle {
+  font: 500 1em "Raleway";
+  text-align: center; }
+
+.projects__btn-container {
+  text-align: center;
+  margin: 2.5em 0; }
+
+.projects .btn:hover {
+  background: #998675 !important; }
+
+.projects__card {
+  margin-bottom: 2em; }
+
+.projects .card-body {
+  background-color: #fbfaf8 !important; }
+
+.projects .card-img-top {
+  height: 14.875em; }
+
+.projects a {
+  display: block;
+  position: relative; }
+
+.projects a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(202, 159, 80, 0.5);
+  opacity: 0; }
+
+.projects a:before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  right: 0;
+  bottom: 0;
+  background: url(../assets/img/icon-zoom.svg);
+  background-repeat: no-repeat;
+  opacity: 0; }
+
+.projects a:hover:before,
+.projects a:hover:after {
+  opacity: 1; }
+
+.projects__card-title {
+  font: 500 1.3em "Raleway";
+  color: #c7b299;
+  padding-top: 1em !important; }
+
+.projects__card-text {
+  font: 300 0.9em "Montserrat";
+  color: #d1d1d1; }
+
+.projects__button {
+  margin-bottom: 3em;
+  background-color: #c7b299; }
+
+@media screen and (max-width: 576px) {
+  .projects .card-group {
+    display: block; } }
+
+.presentation {
+  width: 100%;
+  height: auto;
+  padding: 2em 0 1em;
+  position: relative;
+  background-color: #828384;
+  background-image: url(../assets/img/bg-presentation.png);
+  background-position: center center;
+  background-size: cover; }
+  .presentation .row {
+    margin: 0; }
+  .presentation:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(97, 78, 60, 0.5);
+    opacity: 0; }
+  .presentation:hover:after {
+    opacity: 1; }
+  .presentation__title {
+    margin-top: 1em;
+    font: 600 1.9em 'Raleway';
+    color: #fff;
+    text-align: center; }
+  .presentation__subtitle {
+    font: 400 1em 'Montserrat';
+    color: #fff;
+    text-align: center; }
+  .presentation__date {
+    font: normal 0.8em 'Montserrat';
+    color: #fff;
+    text-align: center; }
+  @media screen and (min-width: 992px) {
+    .presentation {
+      width: 100%;
+      height: 44em; }
+      .presentation__video {
+        margin-top: 12em; } }
+
+.excellent {
+  width: 100%;
+  height: auto;
+  padding-top: 3em;
+  background-color: #fbfaf8; }
+  .excellent__title {
+    font: 600 1.9em 'Raleway';
+    color: #555;
+    text-align: center; }
+  .excellent__text, .excellent__link-text {
+    font: normal 1em 'Montserrat';
+    color: #8c8c8c;
+    text-align: center; }
+  .excellent__list {
+    list-style-type: none; }
+  .excellent__list-item {
+    margin: 1em 0; }
+  .excellent__link:hover {
+    text-decoration: none; }
+  .excellent__link-text {
+    display: inline; }
+  @media screen and (max-width: 576px) {
+    .excellent {
+      background: none; } }
+  @media screen and (max-width: 1200px) {
+    .excellent__hand {
+      display: none; } }
+  @media screen and (min-width: 1200px) {
+    .excellent {
+      width: 100%;
+      height: 43.5em; }
+      .excellent__hand {
+        margin-top: 2em; }
+      .excellent__title {
+        padding-top: 6em; }
+      .excellent__title, .excellent__text {
+        text-align: left; }
+      .excellent__list {
+        padding-left: 5em; } }
+
+.counters {
+  width: 100%;
+  height: auto;
+  background-color: #261e1b;
+  min-width: 15em; }
+  .counters__counter {
+    width: 100% auto;
+    height: inherit;
+    margin: 2em 2.2em 0em;
+    text-align: center; }
+  .counters__icon {
+    margin-bottom: 1em; }
+  .counters__quantity {
+    font: 500 3em 'Montserrat';
+    color: #fff;
+    text-align: center; }
+  .counters__text {
+    font: 300 0.9em 'Montserrat';
+    color: #fff;
+    text-align: center; }
+  .counters__text:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    padding-top: 2em;
+    border-bottom: 0.1em solid #fff; }
+  @media screen and (min-width: 1200px) {
+    .counters__counter {
+      min-width: 12em;
+      margin: 4em 0em 3.5em; } }
+
+.posts {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 5em;
+  padding-bottom: 5em; }
+  .posts__title {
+    font: 600 1.85em 'Raleway';
+    color: #555;
+    text-align: center; }
+  .posts__subtitle {
+    font: 500 1em 'Montserrat';
+    color: #8c8c8c;
+    text-align: center;
+    padding: 1.5em 0 2.5em; }
+    .posts__subtitle::after {
+      display: block;
+      content: "";
+      clear: both; }
+  .posts .card {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0.5em !important; }
+  .posts__card {
+    width: 23.125em;
+    height: auto;
+    display: block;
+    position: relative; }
+  .posts__card:hover {
+    background-color: black; }
+  .posts__card:hover .posts__card-title, .posts__card-button {
+    color: #c7b299; }
+  .posts__card:hover .posts__card-subtitle {
+    color: #fff; }
+  .posts__card:hover .posts__date {
+    background: url("../assets/img/bg-posts-date-brown.png"); }
+  .posts__card:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(54, 47, 45, 0.5);
+    opacity: 0; }
+  .posts__card:hover:after {
+    opacity: 1; }
+  .posts__card-img {
+    min-height: 16.042em;
+    background-color: #555; }
+  .posts__card-title {
+    font: 600 1.35 'Raleway';
+    color: #555; }
+  .posts__card-subtitle {
+    font: 400 0.85 'Monserrat';
+    color: #8c8c8c; }
+  .posts__card-button {
+    font: 400 0.85 'Monserrat';
+    color: #c7b299; }
+  .posts__slider-buttons {
+    padding-top: 2.4em;
+    text-align: center; }
+  .posts__date {
+    width: 3.125em;
+    height: 3.75em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background: url("../assets/img/bg-posts-date-dark.png"); }
+  .posts__date-date {
+    font: 600 1.5em 'Montserrat';
+    color: #cbcbcb;
+    text-align: center;
+    margin: 0.2em 0 0.1em; }
+  .posts__date-month {
+    font: 600 1em 'Montserrat';
+    color: #cbcbcb;
+    text-align: center; }
+
+.partners {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/img/bg-logo.png);
+  background-position: center center;
+  background-size: cover; }
+  .partners__logos {
+    padding: 8.68em 0 8em;
+    text-align: center; }
+  .partners__logo {
+    padding: 2em; }
+
+.summery {
+  width: 100%;
+  height: auto;
+  background-color: #191919;
+  padding-top: 4.875em; }
+  .summery .card {
+    background-color: #191919; }
+  .summery__waxom {
+    max-width: 16.875em;
+    background-color: #191919; }
+  .summery__waxom-img {
+    width: 179px;
+    height: 56px;
+    margin-left: 1.5em; }
+  .summery__waxom-text {
+    font: 400 0.9em 'Montserrat';
+    color: #525252; }
+  .summery__waxom-link {
+    font: normal 0.9em 'Montserrat';
+    color: #d1d1d1; }
+  .summery__waxom-link:hover {
+    color: #c6b5a3; }
+  .summery__column {
+    max-width: 16.875em;
+    margin: 2em 0; }
+  .summery__header {
+    font: bold 1.5em 'Raleway';
+    color: #fff; }
+  .summery__post {
+    text-decoration: none; }
+  .summery__post:hover {
+    text-decoration: none; }
+  .summery__post:hover .summery__date {
+    color: #d3d3d3; }
+  .summery__post:hover .summery__text {
+    color: #7e7162; }
+  .summery__date {
+    font: 400 0.75em 'Montserrat';
+    color: #363636; }
+  .summery__date_margin-bottom_02em {
+    margin-bottom: 0.2em; }
+  .summery__date_padding-bottom_0 {
+    padding-bottom: 0; }
+  .summery__text {
+    font: 500 0.87em 'Montserrat';
+    color: #555;
+    padding-bottom: 1em; }
+  .summery__border-bottom_exist {
+    border-bottom: solid 0.1em #252525; }
+  .summery__border-bottom_none {
+    border-bottom: none; }
+  .summery__tweeter-text {
+    padding-bottom: 0;
+    margin-bottom: 0.4em; }
+  .summery__tweeter-date {
+    padding-bottom: 1em; }
+  .summery__link:hover {
+    color: #c6b5a3;
+    text-decoration: none; }
+  .summery__widget-img {
+    width: 8.125em;
+    height: 6.125em;
+    padding: 0 0.68em 0.68em 0; }
+  @media screen and (max-width: 992px) {
+    .summery__widget {
+      max-width: 100%; }
+    .summery__widget_text-align_center {
+      text-align: center; } }
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: #111;
+  padding: 2.25em 0 3em 0; }
+  .footer__menu {
+    font: 500 0.8em 'Montserrat';
+    color: #4e4e4e;
+    padding-left: 1em;
+    padding-right: 1em; }
+  .footer .row {
+    margin: 0 !important; }
+  .footer__no-left-padding {
+    padding-left: 0; }
+  .footer__no-right-padding {
+    padding-right: 0; }
+  .footer__menu-border {
+    border-left: solid 0.1em #4e4e4e; }
+  .footer__link:hover {
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+    color: #c7b299; }
+  .footer__left-part {
+    text-align: right; }
+  .footer__link {
+    color: #888; }
+  @media screen and (max-width: 992px) {
+    .footer__left-part, .footer__right-part {
+      text-align: center; }
+    .footer__left-part {
+      padding-bottom: 1.5em; } }
